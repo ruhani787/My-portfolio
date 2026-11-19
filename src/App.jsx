@@ -13,7 +13,7 @@ const App = () => {
   return (
    
    <BrowserRouter>
-   <div className='bg-gray-500'>
+   <div className='bg-blue-950 text-white'>
     <Header/>
    <Routes>
     <Route path='/' element={<Intro/>}></Route>

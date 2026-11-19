@@ -2,12 +2,15 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='h-full items-center text-center flex w-250 '>
-      <div className='tracking-widest text-xl ml-75 mt-27 mb-9'>
+    <div className='h-full items-center  flex w-275 '>
+      <div className='tracking-widest text-xl ml-50 mt-27 mb-9'>
           
- <h1 className='bg-gradient-to-r from-white to-purple-400 bg-clip-text text-transparent text-6xl sm:font-serif animate-pulse
+ <h1 className='bg-linear-to-r from-white to-purple-400 bg-clip-text text-transparent text-6xl sm:font-serif animate-pulse
         hover:cursor-default'>About me</h1>
-<p>
+<div className='bg-white/5 border border-purple-400/30
+            rounded-2xl p-6  mt-6
+            hover:border-purple-400 hover:shadow-xl
+            hover:shadow-purple-500/10 transition duration-300'>
  <h2 className='mt-5 flex font-bold underline mb-6'>Who I Am</h2>
 
 Hi, I'm Ruhani, a passionate and enthusiastic Web Developer who loves creating modern, responsive, and user-friendly websites. I have a background in <span className='bg-amber-200'>Software Development</span> and a growing interest in Artificial Intelligence and Data Science. I enjoy exploring new technologies, learning new concepts, and turning creative ideas into meaningful digital experiences.
@@ -50,7 +53,7 @@ I enjoy taking on new challenges, exploring different technologies, and continuo
 I believe that learning never stops in the world of technology. Every new project, every mistake, and every challenge teaches me something valuable.
 
 My aim is to keep learning, keep building, and keep growing as a developer while turning my passion for technology into a successful career.
-</p>
+</div>
       </div>
     </div>
   )
